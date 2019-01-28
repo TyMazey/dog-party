@@ -1,0 +1,100 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-bar {
+  display: block;
+  height: 50px;
+  background-color: lightblue;
+}
+
+.nav-bar img {
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+  width: 25px;
+}
+.nav-bar a {
+  padding-top: 15px;
+  float: right;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: auto;
+  grid-auto-rows: auto auto auto;
+  background-image: url(../../images/park.jpg);
+  height: 400px;
+  vertical-align: middle;
+
+}
+
+.banner h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.banner img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
+  align-self: center;
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+}
+
+h6  {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  display: inline;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: #3F8DA7;
+  border: 3px solid #3F8DA7;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main-content img{
+  height: 150px;
+  align-self: center;
+  border-radius: 50%;
+  border: 3px solid #3F8DA7;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  align-content: center;
+  background-color: #3F8DA7;
+  color: white;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+.logos img{
+  height: 40px;
+}
+
+#github {
+  text-decoration: underline;
+}
